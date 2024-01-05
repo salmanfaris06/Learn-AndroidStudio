@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="15dp">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Successfull ordered"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="65dp"/>
+        
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/main"
+            android:text="Confirm"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
